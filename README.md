@@ -9,22 +9,8 @@ The Detector accepts the image catched from Camera, then locate and classify coa
 # Data Communication Part
 
 # Preject File
-- **Form1.Designer.cs**
-
-Window design code.
-
-- **Form1.cs**
-
-Including Camera, Detector, Data communication, MySQL and other codes.
-
-- **CommClass.cs**
-
-About serial port.
-
-- **Program.cs**
-
-C# main program entry point.
-
-- **YoloWrapper.cs**
-
-YOLO detect model wrapper code, copy from `darknet/build/darknet/YoloWrapper.cs`.
+- **Form1.Designer.cs:** Window design code.
+- **Form1.cs:** Including Camera, Detector, Data communication, MySQL and other codes.
+- **CommClass.cs:** About serial port.
+- **Program.cs:** C# main program entry point.
+- **YoloWrapper.cs:** YOLO detect model wrapper code, copy from `darknet/build/darknet/YoloWrapper.cs`.
