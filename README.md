@@ -4,9 +4,6 @@ This is a C# project on Win10. This project adpots deep learning method (object 
 We use [YOLOv4-tiny](https://github.com/AlexeyAB/darknet) model as the detector to detect and classify coal and gan. The trained model runs on CPU, and compiles without OpenCV. 
 
 The Detector accepts the image catched from Camera, then locate and classify coal or gan on the image. The detect results will send to machine gripper and visualize in window.
-# Camera Part
-
-# Data Communication Part
 
 # Preject File
 - **Form1.Designer.cs:** Window design code.
